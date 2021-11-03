@@ -8,14 +8,14 @@ Pressure signals are recorded via a BMP180 pressure sensors from Bosch Co. embed
 
 Gripping force is the Z-axis force measured using a mini 45 F/T sensor from ATI Industrial Automation Inc.
 
-Signal processing:
+- Signal processing:
 
 Signals are smoothed and noise is reduced via notch and band-pass filters. All data is normalized.
 
-Dataset:
+- Dataset:
 
 Data is derived form a healthy 25 year-old female subject. multiple tests were performed and all data were concatenated.
 
-Force estimation:
+- Force estimation:
 
 Gripping force is predicted using a Long short-term memory (LSTM) neural networks.
